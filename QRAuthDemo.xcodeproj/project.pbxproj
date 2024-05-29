@@ -12,6 +12,7 @@
 		05285DC62BFE4B4C003E145B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05285DC52BFE4B4C003E145B /* Assets.xcassets */; };
 		05285DC92BFE4B4C003E145B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05285DC82BFE4B4C003E145B /* Preview Assets.xcassets */; };
 		05285DD12BFE51E8003E145B /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 05285DD02BFE51E8003E145B /* CodeScanner */; };
+		05D195472C07788D0015D6C6 /* CreateUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D195462C07788C0015D6C6 /* CreateUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		05285DC32BFE4B3A003E145B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05285DC52BFE4B4C003E145B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05285DC82BFE4B4C003E145B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05D195462C07788C0015D6C6 /* CreateUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				05285DC12BFE4B3A003E145B /* QRAuthDemoApp.swift */,
 				05285DC32BFE4B3A003E145B /* ContentView.swift */,
+				05D195462C07788C0015D6C6 /* CreateUserView.swift */,
 				05285DC52BFE4B4C003E145B /* Assets.xcassets */,
 				05285DC72BFE4B4C003E145B /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05285DC42BFE4B3A003E145B /* ContentView.swift in Sources */,
+				05D195472C07788D0015D6C6 /* CreateUserView.swift in Sources */,
 				05285DC22BFE4B3A003E145B /* QRAuthDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
